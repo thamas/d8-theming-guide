@@ -584,11 +584,7 @@ The `"use strict"` directive is new in JavaScript 1.8.5 and ignored by previous 
 
 ## Breakpoints
 
-![https://www.drupal.org/files/project-images/breakpoints_group.png](https://www.drupal.org/files/project-images/breakpoints_group.png)
-
-- [Breakpoint added to Drupal 8](https://www.drupal.org/node/1813914)
-
-> The Breakpoints module keeps track of the height, width, and resolution breakpoints where a responsive design needs to change in order to respond to different devices being used to view the site. The Breakpoints module standardises the use of breakpoints, and enables modules and themes to expose or use each others' breakpoints.
+> The Breakpoint module keeps track of the height, width, and resolution breakpoints where a responsive design needs to change in order to respond to different devices being used to view the site. **This module does not have a user interface**, but contributed modules such as [Breakpoint UI](http://drupal.org/project/breakpoint_ui) may provide one.
 
 Both themes and modules can define breakpoints by creating a configuration file called `{name}.breakpoints.yml` where `{name}` is the name of your theme or module. 
 
@@ -614,7 +610,7 @@ To get a good example, let look at `bartik.breakpoints.yml`:
 	  multipliers:
 	    - 1x 
 
-[@todo]
+For more information, see the [online documentation for the Breakpoint module](https://drupal.org/documentation/modules/breakpoint).
 
 ## Image styles
 
